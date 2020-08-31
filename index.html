@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="src/styles.css">
+        <title>Portfolio Jovan</title>
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="shortcut icon" type="image/x-icon" href="src/img/Jlogo.ico">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav_logo">Jovan</a>
+                </div>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
+                        <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                        <li class="nav_item"><a href="#education" class="nav_link">Education</a></li>
+                        <li class="nav_item"><a href="#experience" class="nav_link">Experience</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!-- Home -->
+            <section class="home bd-grid" id="home">
+                <div class="home_data">
+                    <h1 class="home_title">Hello,<br>I'am <span class="home_title-color">Jovan</span><br> Informatics Student</h1>
+                    <a href="#about" class="button">About Me</a>
+                </div>
+
+                <div class="home_social">
+                    <a href="https://www.linkedin.com/in/jovan-karuna-cahyadi/" class="home_social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.instagram.com/jovankaruna/" class="home_social-icon"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://medium.com/@jovancahyadi" class="home_social-icon"><i class='bx bxl-medium' ></i></a>
+                </div>
+
+                <div class="home_img">    
+                    <img src="src/img/me.png" alt="">
+                </div>
+            </section>
+
+            <!-- About -->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about_container bd-grid">
+                    <div class="about_img">
+                        <img src="src/img/About.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about_subtitle">I'am Jovan Karuna Cahyadi</h2>
+                        <p class="about_text">A passionate programmer who is eager to learn in the field of computer science and data science. Currently studying at Institut Teknologi Bandung, majoring Informatics Engineering.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!-- Education -->
+            <section class="education section " id="education">
+                <h2 class="section-title">Education</h2>
+
+                <div class="education_container bd-grid">
+                    <div>
+                        <h3 class="education_subtitle">Institut Teknologi Bandung - Informatics Engineering</h3>
+                        <p class="education_time">2018-Present</p>
+                        <h3 class="education_subtitle">SMAK Sang Timur - Science Major</h3>
+                        <p class="education_time">2015-2018</p> 
+                    </div>                 
+                    <div class="education_img">
+                        <img src="src/img/ITB.jpg" alt="">
+                    </div>                             
+                </div>
+            </section>
+
+            <!-- Experience -->
+            <section class="experience section " id="experience">
+                <h2 class="section-title">Experience</h2>
+
+                <div class="experience_container bd-grid">  
+                    <div>
+                        <h3 class="experience_subtitle">Graphics and Artificial Intelligence Laboratory Assistant</h3>
+                        <p class="experience_time">Institut Teknologi Bandung, Bandung – Aug 2019 - Present</p>                  
+                    </div> 
+                    <div>
+                        <h3 class="experience_subtitle">Web Development Staff</h3>
+                        <p class="experience_time">AIChE Indonesia Student Conference 2021, Bandung – Jul 2020 - Present</p>   
+                        <div class="experience_text">
+                            <ul>
+                                <li>I build web components and web pages for Home, About, AISChat and Volunteer.</li>          
+                                <li>Handle and implements client-side dual-language (English and Bahasa).</li>
+                            </ul>          
+                            <p>Tech Stack : React Hooks, Firebase</p>
+                        </div>          
+                    </div> 
+                    <div>
+                        <h3 class="experience_subtitle">Back End Engineer Intern</h3>
+                        <p class="experience_time">Eduka System, Bandung – Jun 2020 - Aug 2020</p>   
+                        <div class="experience_text">
+                            <ul>
+                                <li>As a Back-End Engineer, I implements ranker system for tournament in 3 services (ranker service, ranker worker service, and ranker search service). I also made unit test for ranker service and ranker worker service using Go Mock and Go Test.</li>          
+                                <li>I was given a task to make documentation in confluence for services.</li>
+                                <li>Restructuring ranker service file into ranker worker service's file structure.</li>
+                            </ul>          
+                            <p>Tech Stack : RabbitMQ, MongoDB, Elastic Search, Go, NodeJS</p>
+                        </div>
+                    </div>     
+                    <div>
+                        <h3 class="experience_subtitle">Practicum Assistant Computing</h3>
+                        <p class="experience_time">Comlabs - ITB, Bandung – Aug 2019 - Dec 2019</p>
+                        <div class="experience_text">
+                            <ul>
+                                <li>As a practicum assistant, I am responsible to teach and accompany students during the practicum. I am also involved in grading the student's tasks.</li>          
+                                <li>I teach basic computational thinking and basic programming in python language for 2 classes each consist of 40 students.</li>
+                            </ul>   
+                            <p>Skills : Python, Pandas</p>
+                        </div>
+                    </div>                                      
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer_social">
+                <a href="https://www.linkedin.com/in/jovan-karuna-cahyadi/" class="footer_icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://www.instagram.com/jovankaruna/" class="footer_icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://github.com/JovanKaruna" class="footer_icon"><i class='bx bxl-github' ></i></a>
+            </div>
+            <p>Copyright © 2020 Jovan Karuna Cahyadi</p>
+        </footer>
+
+        <script src="src/main.js"></script>
+    </body>
+</html>
